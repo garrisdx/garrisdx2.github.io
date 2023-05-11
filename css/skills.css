@@ -1,0 +1,34 @@
+#skills_link {
+    border-bottom: 5px solid  #154b25;
+}
+.skills_box {
+    width:auto;
+    border: 5px solid #154b25;
+    background-color: #bdd2c3;
+    font-size: 10px;
+    text-align: center;
+    padding: 1em;
+}
+#all_skills {
+    display: grid;
+    grid-template-areas: "1 2"
+                         "3 4"
+                         "5 6" 
+                         "7 8";    
+    gap: 25px;    
+    margin: 5% 15% 10% 15%; 
+    }
+.pycharm {
+    max-width: 30px;
+}
+.project_container {
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+td, th {
+    border: 2px solid #154b25;
+}
+#skills_link {
+    border-bottom: 5px solid  #154b25;
+}

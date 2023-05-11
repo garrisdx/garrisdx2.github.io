@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+body {
+    background-color: #f0efeb;
+    color: #5B3812;
+    font-family: Bitter;
+}
+.page_basis {
+    text-align: center;
+    color: #154b25;
+}

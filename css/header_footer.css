@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+.pageEnd {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 30px;
+    align-self: center;
+}
+.link {
+    color: #5B3812;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
+}
+/* need to fix hoover over for nav */
+
+.link:hoover {
+    border-bottom: 5px solid  #154b25;
+}
+
+
+#linkedin_footer {
+    max-width: 15px;
+    border-radius: 15%;
+}
+#return {
+    text-decoration: none;
+    color: #5B3812;
+    align-self: center;
+}
+#contacts {
+    display: flex; 
+    margin-top: 10%;
+}
+#footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 5%;
+    margin-bottom: 0%;
+    background-color: #bdd2c3;
+}
+
+#name {
+    margin-left: 1%;
+    margin-top: 1%;
+    border: 5px double #154b25;
+    padding: 0.5em;
+    border-radius: 8%;
+}
+#top {
+    font-size: 30px;
+}

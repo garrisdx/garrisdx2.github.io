@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+}
+
+#linkedin {
+    max-width: 50px;
+}
+#contact_link {
+    border-bottom: 5px solid #154b25;
+}
+#mailto {
+    text-decoration: none;
+    color: #154b25;
+}
+#button {
+    background-color: #154b25;
+    color:#eae9e6;
+}
+#contact_info {
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+#logos_links {
+    display: flex;
+    justify-content: center;
+}
