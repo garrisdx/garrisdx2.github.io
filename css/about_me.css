@@ -1,0 +1,25 @@
+#blog_style {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#about_link {
+    border-bottom: 5px solid #154b25;
+}
+
+img {
+    max-width: 100px;
+}
+
+.sector {
+    background-color: #bdd2c3;
+}
+
+#pet{
+    display: grid;
+    grid-template-areas: "pet1 pet1 pet1 pet1"
+                         "pet1 pet1 pet1 pet1"
+                         "pet2 pet3 pet3 pet4"
+                         "pet2 pet3 pet3 pet4"
+                         "pet5 pet3 pet3 pet4"
+                         "pet5 pet3 pet3 pet4";
+}
