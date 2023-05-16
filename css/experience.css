@@ -1,3 +1,8 @@
+.title {
+    text-align: center;
+    margin-top: 5%;
+}
+/* highlighted nav to show page on bar */
 #experience_link {
     border-bottom: 5px solid #154b25;
 }
@@ -13,10 +18,7 @@
     color: #154b25;
 }
 
-.title {
-    text-align: center;
-    margin-top: 5%;
-}
+
 .pdf_link {
     text-decoration: none;
     color: #154b25;
@@ -26,4 +28,17 @@
     text-align: left;
     line-height: 2;
     list-style-type: "~";
+    font-size: 0.95em;
 }
+
+/* adjusting all page specific headers font size */
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5{
+    font-size: 1em;
+}
+

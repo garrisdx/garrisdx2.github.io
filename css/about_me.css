@@ -1,25 +1,39 @@
-#blog_style {
-    margin-left: 20%;
-    margin-right: 20%;
-}
+/* highlighted nav to show page on bar */
 #about_link {
     border-bottom: 5px solid #154b25;
 }
-
-img {
-    max-width: 100px;
+/* making it so all photos for the second sections are relatively the same size */
+.photo2 {
+    max-width: 400px;
+    max-height: 400px;
 }
-
-.sector {
+/* same styling for both page sections */
+.page_section {
     background-color: #bdd2c3;
+    margin: 10% 20%;
+    text-align: center;
+    
 }
 
+#pets_photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+#pet_text{
+    margin-bottom: 8%;
+}
+.photo {
+    max-width: 350px;
+}
 
-#outside {
-    display: grid;
-    grid-template-areas: ".    out1 out1   . "
-                         "out3 .  .      out4"
-                         "out3 out2 out2 out4"
-                         "out5 out2 out2 out6"
-                         "out5   .    .  out6";
+p{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.horizontal_photo {
+    margin-bottom: 8%;
+}
+
+h3{
+    font-size: 1.5em;
 }

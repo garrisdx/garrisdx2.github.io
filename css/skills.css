@@ -1,14 +1,4 @@
-#skills_link {
-    border-bottom: 5px solid  #154b25;
-}
-.skills_box {
-    width:auto;
-    border: 5px solid #154b25;
-    background-color: #bdd2c3;
-    font-size: 10px;
-    text-align: center;
-    padding: 1em;
-}
+/* skills boxes */
 #all_skills {
     display: grid;
     grid-template-areas: "1 2"
@@ -18,9 +8,16 @@
     gap: 25px;    
     margin: 5% 15% 10% 15%; 
     }
-.pycharm {
-    max-width: 30px;
-}
+    .skills_box {
+        width:auto;
+        border: 5px solid #154b25;
+        background-color: #bdd2c3;
+        font-size: 10px;
+        text-align: center;
+        padding: 1em;
+    }
+/* end of skills boxes start of project tables*/
+
 .project_container {
     border-collapse: collapse;
     margin-left: 10%;
@@ -30,14 +27,20 @@
 td, th {
     border: 2px solid #154b25;
 }
+/* highlighted nav to show page on bar */
 #skills_link {
     border-bottom: 5px solid  #154b25;
 }
 
 #project_heading {
     text-align: center;
+    font-size: 1.6em;
 }
 caption {
     color: #154b25;
     font-size: 1.2em;
 }
+.pycharm {
+    max-width: 30px;
+}
+/*end of project tables*/

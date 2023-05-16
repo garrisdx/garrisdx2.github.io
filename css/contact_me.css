@@ -1,3 +1,25 @@
+/*top of page*/
+#logos_links {
+    display: flex; 
+    justify-content: center; 
+    gap: 2em;
+}
+
+#email_link {
+    margin-top: 1%;
+}
+#linkedin {
+    max-width: 50px;
+}
+/* highlighted nav to show page on bar */
+#contact_link {
+    border-bottom: 5px solid #154b25;
+}
+#mailto {
+    text-decoration: none;
+    color: #154b25;
+}
+/*end top of page, start of form*/
 form {
     display: flex;
     flex-direction: column;
@@ -7,16 +29,6 @@ form {
     font-size: 20px;
 }
 
-#linkedin {
-    max-width: 50px;
-}
-#contact_link {
-    border-bottom: 5px solid #154b25;
-}
-#mailto {
-    text-decoration: none;
-    color: #154b25;
-}
 #button {
     background-color: #154b25;
     color:#eae9e6;
@@ -25,7 +37,4 @@ form {
     margin-bottom: 10%;
     margin-top: 7%;
 }
-#logos_links {
-    display: flex;
-    justify-content: center;
-}
+/*end of form*/
