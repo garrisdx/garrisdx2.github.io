@@ -25,6 +25,7 @@
     border-collapse: collapse;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 3%;
 }
 td, th {
     border: 2px solid #154b25;
@@ -35,4 +36,8 @@ td, th {
 
 #project_heading {
     text-align: center;
+}
+caption {
+    color: #154b25;
+    font-size: 1.2em;
 }

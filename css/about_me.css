@@ -14,12 +14,12 @@ img {
     background-color: #bdd2c3;
 }
 
-#pet{
+
+#outside {
     display: grid;
-    grid-template-areas: "pet1 pet1 pet1 pet1"
-                         "pet1 pet1 pet1 pet1"
-                         "pet2 pet3 pet3 pet4"
-                         "pet2 pet3 pet3 pet4"
-                         "pet5 pet3 pet3 pet4"
-                         "pet5 pet3 pet3 pet4";
+    grid-template-areas: ".    out1 out1   . "
+                         "out3 .  .      out4"
+                         "out3 out2 out2 out4"
+                         "out5 out2 out2 out6"
+                         "out5   .    .  out6";
 }

@@ -3,9 +3,14 @@ body {
     background-color: #f0efeb;
     color: #5B3812;
     font-family: Bitter;
+    margin: 0;
+
 }
 /* headings for all pages */
 .page_basis {
     text-align: center;
     color: #154b25;
+}
+.main_content {
+    margin-bottom: 5%;
 }
